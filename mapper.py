@@ -25,7 +25,7 @@ def mapper(data, map_dict, cols = None):
 
 if __name__ == "__main__":
     data_dir = 'datasets'
-    data_set = 'WN18RR_old/mapped'
+    data_set = 'WN18_old/mapped'
     exchange_data = 'entities_with_previous_values.csv'
     save_location = 'updated'
 

@@ -22,7 +22,7 @@ def find_wn_ids(entities_list):
     return entities_str, count
 
 if __name__ == "__main__":
-    data = 'datasets/WN18RR_old'
+    data = 'datasets/WN18_old'
     entities_dir = os.path.join(data, 'entities.dict')
     entities = pd.read_table(entities_dir, header=None, dtype=str)
     entities_list = entities[1].values

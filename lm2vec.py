@@ -72,8 +72,8 @@ if __name__ == "__main__":
 
     target_type = "st"
 
-    process_embedding("datasets/WN18RR_old/mapped/updated",emb_type=target_type)
-    process_embedding("datasets/WN18RR_old/mapped/updated", emb_type="ft", save_extra=True)
-    process_embedding("datasets/WN18RR_old/mapped/updated", emb_type="st", save_extra=True)
+    process_embedding("datasets/WN18_old/mapped/updated",emb_type=target_type)
+    process_embedding("datasets/WN18_old/mapped/updated", emb_type="ft", save_extra=True)
+    process_embedding("datasets/WN18_old/mapped/updated", emb_type="st", save_extra=True)
 
 

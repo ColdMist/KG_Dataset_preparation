@@ -16,7 +16,7 @@ def obtain_text_WN(ids):
     return converted_texts_for_ids, converted_texts_with_ids
 
 if __name__ == "__main__":
-    data_dir = 'WN18RR_old/mapped'
+    data_dir = 'WN18_old/mapped'
     entity_file_name = 'entities.dict'
     data = pd.read_table(os.path.join(f"datasets/{data_dir}", entity_file_name), header=None, dtype=str)
     converted_ids, converted_ids_with_orig = obtain_text_WN(data[1].values)

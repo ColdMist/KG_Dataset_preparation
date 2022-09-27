@@ -42,7 +42,7 @@ def write_to_txt_file(path, data):
     f.close()
 
 if __name__ == "__main__":
-    data_dir = 'datasets/WN18RR_old/mapped/updated'
+    data_dir = 'datasets/WN18_old/mapped/updated'
 
     train_data_dir = os.path.join(data_dir, 'train.txt')
     test_data_dir = os.path.join(data_dir, 'test.txt')
