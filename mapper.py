@@ -25,9 +25,9 @@ def mapper(data, map_dict, cols = None):
 
 if __name__ == "__main__":
     data_dir = 'datasets'
-    data_set = 'WN18RR_old'
-    exchange_data = 'entities_mapped.csv'
-    save_location = 'mapped'
+    data_set = 'WN18RR_old/mapped'
+    exchange_data = 'entities_with_previous_values.csv'
+    save_location = 'updated'
 
     train_data = pd.read_table(os.path.join(f'{data_dir}/{data_set}', 'train.txt'), header = None, dtype=str)
     test_data = pd.read_table(os.path.join(f'{data_dir}/{data_set}', 'test.txt'), header = None, dtype=str)

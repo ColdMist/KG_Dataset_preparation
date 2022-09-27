@@ -42,12 +42,11 @@ def write_to_txt_file(path, data):
     f.close()
 
 if __name__ == "__main__":
-    data_dir = 'datasets/WN18RR_old/mapped'
+    data_dir = 'datasets/WN18RR_old/mapped/updated'
 
     train_data_dir = os.path.join(data_dir, 'train.txt')
     test_data_dir = os.path.join(data_dir, 'test.txt')
     valid_data_dir = os.path.join(data_dir, 'valid.txt')
-
 
     train_triples = pd.read_table(train_data_dir, header=None, sep='\t', dtype=str)
     test_triples = pd.read_table(test_data_dir, header=None, sep='\t', dtype=str)
